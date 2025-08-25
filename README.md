@@ -2,6 +2,8 @@
 
 This Python script is a robust tool for continuously monitoring your network connection and application performance. It gathers key metrics, provides real-time console feedback, generates logs, and exposes all data to a Prometheus endpoint for advanced monitoring and graphing.
 
+![Dashboard](/docs/images/dashboard.png)
+
 ## 📝 Features
 
 - Network Health Metrics: Tracks ping latency, packet loss percentage, and the path (traceroute) to a configured internet host.
