@@ -1,0 +1,12 @@
+# dashboards.yml
+apiVersion: 1
+
+providers:
+- name: 'Network Dashboards'
+  orgId: 1
+  folder: ''
+  type: file
+  disableDeletion: false
+  updateIntervalSeconds: 5
+  options:
+    path: /var/lib/grafana/dashboards
